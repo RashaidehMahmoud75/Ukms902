@@ -1,0 +1,54 @@
+curl -X "POST" "http://localhost:3000/api/mg" \
+     -i \
+     -H 'Content-Type: application/json' \
+     -d $'{
+
+    "CODE": 6259458,
+    "AREA": 23,
+    "DAY": 5,
+    "TIMEBAND": 1,
+    "LOB_CODE": 11,
+    "MEET_LOC_CODE": 62594,
+    "SERV_PROV_CODE": "017809",
+    "TRANS_DATE": "2014-12-14T00:00:00.000Z",
+    "WEIGH_ONLY": "N",
+    "STATUS": 1,
+    "REGION": 1,
+    "BUS_AREA": 2,
+    "DESCR": "abcd",
+    "INT_DOM": 1,
+    "START_TIME": "1000",
+    "CLOSED_DATE": "2014-12-14T00:00:00.000Z",
+    "CONSULT_NO": 1,
+    "CLIENT_NO": 1,
+    "OLD_MG_CODE": 123,
+    "MILEAGE": 1,
+    "PARKING": 1,
+    "FUTURE_SP_CODE": null,
+    "FUTURE_SP_DATE": "2014-12-14T00:00:00.000Z",
+    "AGREED_MILEAGE": 0.8,
+    "RELATED_MG_CODE": 111,
+    "SUPPRESS_MF_YN": "N",
+    "CREATION_DATE": "2014-12-14T00:00:00.000Z",
+    "CREATED_BY": "USER",
+    "LAST_UPDATE_DATE": "2014-12-14T00:00:00.000Z",
+    "LAST_UPDATED_BY": "user",
+    "MES_INTERFACE_STATUS": "P",
+    "SUB_WH_CODE": 1,
+    "MOT_CODE": 1,
+    "MEETING_TYPE_CODE": 1,
+    "MT_START_DATE": null,
+    "MT_END_DATE": null,
+    "ASM_AGREED_MIN_ATTS": null,
+    "AGREED_MIN_ATTS_START_DATE": null,
+    "AGREED_MIN_ATTS_END_DATE": null,
+    "RENT_TYPE": 1,
+    "SUPPRESS_MES_YN": "N",
+    "CHANNEL_TYPE": "PHY",
+    "END_TIME": "1100",
+    "WORKSHOP_INTERVAL": "W"
+}
+}'
+
+
+
